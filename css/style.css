@@ -1,0 +1,161 @@
+*{
+ margin: 50;
+ padding: 30;
+scroll-behavior:smooth;
+}
+
+#logo {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'lobster; cursive;
+}
+
+.aboutus-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-top: 10%;
+}
+
+.aboutus-image-container{
+    width: 30%;
+}
+.aboutus-image-container img{
+    width: 100%;
+    height: auto;
+}
+
+.aboutus-content{
+    width: 60%;
+}
+
+.aboutus-span{
+    color: rgba(16, 247, 16, 0.911);
+    font-weight: bolder;
+}
+
+.remove-dot{
+    list-style: none;
+}
+
+.remove-dot a{
+    text-decoration: none;
+    color: white;
+}
+
+.remove-dot li a:hover{
+    color: green;
+}
+nav{
+    background-color: black
+}
+
+.list-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.list-container li:hover{
+    color: green;
+}
+
+.back-drop {
+    background-image: url("./assests/heroimage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+}
+
+.back-drop-content{
+    display: flex;
+    text-align: center;
+    flex-direction:column;
+    justify-content: center;
+    height: 70vh;
+    letter-spacing: 5px;
+    color: white;
+}
+
+h1{
+    font-family:'Akronim' 'cursive;
+    
+}
+
+
+.nav-link{
+    flex-direction: column !important;
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    top: 47px;
+    left: -100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    transition: all .5s; 
+}
+
+Copyright
+Privacy Policy
+Contact
+Address
+Phone and Fax numbers
+Navigation
+Social Icons
+Email Signup
+Your Mission. Your Values
+
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+          <img src="img/logo.png">
+				<h3>About<span>Eduonix</span></h3>
+
+				<p class="footer-links">
+					<a href="#">Home</a>
+					|
+					<a href="#">Blog</a>
+					|
+					<a href="#">About</a>
+					|
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">© 2019 Eduonix Learning Solutions Pvt. Ltd.</p>
+			</div>
+
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					  <p><span>309 - Rupa Solitaire,
+						 Bldg. No. A - 1, Sector - 1</span>
+						Mahape, Navi Mumbai - 400710</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+91 22-27782183</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@eduonix.com">support@eduonix.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About the company</span>
+					We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-youtube"></i></a>
+				</div>
+			</div>
